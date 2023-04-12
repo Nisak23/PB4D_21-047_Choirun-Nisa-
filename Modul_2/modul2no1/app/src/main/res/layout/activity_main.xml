@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/teks1"
+    android:text="@string/judul"
+    android:textSize="20dp"
+    android:textAlignment="center"
+    android:textStyle="bold">
+
+</TextView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gambar"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/logoteknik"></ImageView>
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabel"
+        android:stretchColumns="*"
+        android:background="@android:color/white"
+        android:layout_marginBottom="30dp"
+        android:showDividers="middle"
+        android:divider="?android:attr/listDivider">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris1"
+                android:text="@string/baris11"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAlignment="center">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris2"
+                android:text="@string/baris12"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAlignment="center">
+
+            </TextView>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris4"
+                android:text="@string/baris21"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris5"
+                android:text="@string/baris22"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris7"
+                android:text="@string/baris31"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris8"
+                android:text="@string/baris32"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris10"
+                android:text="@string/baris41"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris11"
+                android:text="@string/baris42"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris12"
+                android:text="@string/baris51"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris13"
+                android:text="@string/baris52"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris14"
+                android:text="@string/baris61"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris15"
+                android:text="@string/baris62"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris16"
+                android:text="@string/baris71"
+                android:paddingLeft="5dp"
+                android:textSize="20sp"
+                android:layout_weight="0"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/teksbaris17"
+                android:text="@string/baris72"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_weight="1">
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

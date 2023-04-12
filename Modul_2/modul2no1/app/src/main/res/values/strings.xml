@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Universitas Trunojo Madura</string>
+    <string name="judul">Tabel Akreditasi Prodi Fakultas Teknik</string>
+    <string name="baris11">Program Studi</string>
+    <string name="baris12">Akreditasi</string>
+    <string name="baris21">Teknik Informatika</string>
+    <string name="baris22">Baik Sekali</string>
+    <string name="baris31">Sistem Informasi</string>
+    <string name="baris32">Baik</string>
+    <string name="baris41">Teknik Mesin</string>
+    <string name="baris42">Baik</string>
+    <string name="baris51">Teknik Mekatronika</string>
+    <string name="baris52">Baik</string>
+    <string name="baris61">Teknik Elektro</string>
+    <string name="baris62">Baik Sekali</string>
+    <string name="baris71">Teknik Industri</string>
+    <string name="baris72">Baik Sekali</string>
+</resources>
