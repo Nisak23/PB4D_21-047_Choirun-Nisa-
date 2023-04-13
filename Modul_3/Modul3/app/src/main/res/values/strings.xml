@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Modul 3</string>
+    <string name="judul">Aplikasi Scan Barcode</string>
+    <string name="btn1">Penjelasan Aplikasi</string>
+    <string name="btn2">Scan Disini</string>
+    <string name="penjelasan">\t\tAplikasi ini adalah aplikasi yang dapat digunakan pengguna untuk menscan barcode yang dimiliki pengguna. Pengguna hanya perlu  mengklik tombol Scan Disini  yang nantinya akan diarahkan oleh aplikasi ke sebuah website scan barcode dan pengguna menghadapkan kamera ke barcode tersebut. Secara otomatis nanti web akan menscan barcode tersebut dan akan menampilkan isi barcode ke pengguna</string>
+</resources>
