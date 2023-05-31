@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2775A3">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="290dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/foto"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="30dp"
+        android:text="BIODATA"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:text="Nama       : Choirun Nisa'\nAngkatan : 2021\nProdi        : Sistem Informasi\nAsal          : Pasuruan\nHobi         : Membaca
+\nNo. Telp   : 085730153432" />
+
+</LinearLayout>
